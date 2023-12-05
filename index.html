@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="src.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="InDiv">
+        <div class="Cont">
+            <h2>1ST NUMBER :</h2>
+            <input class="NuminBox" type="text" id="NUM1"/>
+        </div>
+        <div class="Cont">
+            <h2>2ND NUMBER :</h2>
+            <input class="NuminBox" type="text" id="NUM2"/>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+
+    <div class="InDiv">
+        <button id="SUM" onclick="Add()">+</button>
+        <button id="SUB" onclick="Sub()">-</button>
+        <button id="MUL" onclick="Mul()">x</button>
+        <button id="DIV" onclick="Div()">/</button>
+    </div>
+
+    <br><br><br><br>
+
+    <h1>ANSWER : <span id="ANS"></span></h1>
+</body>
+</html>
