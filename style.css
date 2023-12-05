@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 600px;
+    margin:1rem;
+    padding:1rem;
+    font-family: monospace;
+    background-color: #004f00;
+}
+
+.myContainter{
+    min-height: 590px;
+    /* display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center; */
+    background: #002f00;
+    border-radius: 10px;
+}
+
+h1{
+    display: block;
+    margin:0 0 1rem 0;
+    padding-top:1rem;
+    font-size: 3rem;
+    color:#ffc83b;
+    text-shadow: 0px 0px 10px #000000;
+    text-align: center;
+}
+hr{
+    height: 5px;
+    background-color: #ffc83b;
+    border-color: #ffc83b;
+}
+
+.INFO{
+    margin:1.2rem;
+    color:#fff;
+    font-size:24px;
+    font-weight: 600;
+    text-wrap: wrap;
+}
+.ButtonSection{
+    margin:1rem;
+    padding:1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(1,400px);
+    justify-content: space-evenly; */
+    flex-wrap: wrap;
+}
+.TextS{
+    text-transform: uppercase;
+    /* text-transform: capitalize; */
+    margin:0.3rem 1rem;
+    color:#fff;
+    font-size:36px;
+    text-align: center;
+
+}
+.BTN{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 800;
+    margin:0.6rem;
+    min-height: 30px;
+    height: 50px;
+    min-width: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.RestBtn{
+    font-family: monospace;
+    font-size: 28px;
+    height: 70px;
+    width: 70px;
+    font-weight: 900;
+    border-radius: 35px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 0.8rem;
+    margin-bottom: 1rem;
+}

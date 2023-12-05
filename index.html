@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="src.js"></script>
+    <title>BlackJack</title>
+</head>
+<body onload="shutBtn()">
+    <div class="myContainter">
+        <h1>BLACK JACK</h1>
+        <hr/>
+        <p class="TextS" id="Ask">Want to play a round?</p>
+        
+        <section>
+            <p class="INFO">CARDS : <span id="CrdIH"></span></p>
+            <p class="INFO">SCORE : <span id="Score"></span></p>
+        </section>
+        
+        <section>
+            <p class="INFO">CARDS : <span id="D_CrdIH"></span></p>
+            <p class="INFO">SCORE : <span id="D_Score"></span></p>
+        </section>
+        
+        <section class="ButtonSection">
+            <button class="BTN" onclick="gameInit()">START THE GAME</button>
+            <button class="BTN" onclick="drawCard()" id="Drw">DRAW A NEW CARD</button>
+            <button class="BTN" onclick="Stand()" id="Std">STAND</button>
+
+        </section >
+    </div>
+    <button class="RestBtn" onclick="Reset()">&#10227;</button>
+</body>
+</html>
